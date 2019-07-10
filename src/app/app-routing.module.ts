@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { InicioSesionComponent } from './generales/componenetes/inicio-sesion/inicio-sesion.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"",component:InicioSesionComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
